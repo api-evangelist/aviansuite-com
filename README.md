@@ -1,4 +1,4 @@
-# aviansuite-com
+# AvianSuite
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aviansuite-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aviansuite.com/
+AvianSuite is an agent-native business data platform. AI agents run business processes like sales follow-up and bookkeeping on your company's data, and every change they make is versioned, attributed to the agent that made it, and reversible. Built on the open-source Stellar Jay data store.
+
+**Areas:** AI · Agents · Business-Data · Automation · Platform
+
+## AvianSuite on APIs.io
+
+Everything profiled for AvianSuite is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aviansuite-com/](https://apis.io/providers/aviansuite-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [AvianSuite API](https://apis.io/apis/aviansuite-com/aviansuite-api/) — Start here: what AvianSuite is, how agent writes stay safe, and how to connect your first agent.
+- [AvianSuite Admin API](https://apis.io/apis/aviansuite-com/aviansuite-com-admin-api/) — The Admin API from AvianSuite — 6 operation(s) for admin.
+- [AvianSuite Events API](https://apis.io/apis/aviansuite-com/aviansuite-com-events-api/) — The Events API from AvianSuite — 2 operation(s) for events.
+- [AvianSuite Health API](https://apis.io/apis/aviansuite-com/aviansuite-com-health-api/) — The Health API from AvianSuite — 2 operation(s) for health.
+- [AvianSuite Refs API](https://apis.io/apis/aviansuite-com/aviansuite-com-refs-api/) — The Refs API from AvianSuite — 1 operation(s) for refs.
+- [AvianSuite Root API](https://apis.io/apis/aviansuite-com/aviansuite-com-root-api/) — The Root API from AvianSuite — 1 operation(s) for root.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aviansuite Com Agentic Access](https://apis.io/agentic-access/aviansuite-com/aviansuite-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aviansuite Com Context](https://apis.io/jsonld/aviansuite-com/aviansuite-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AvianSuite API Rules](https://apis.io/rules/aviansuite-com/aviansuite-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aviansuite Com Authentication](https://apis.io/security/aviansuite-com/aviansuite-com-authentication/)
+- [Aviansuite Com Domain Security](https://apis.io/security/aviansuite-com/aviansuite-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aviansuite Com Plans Pricing](https://apis.io/plans/aviansuite-com/aviansuite-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aviansuite.com/)
+- [Documentation](https://aviansuite.com/docs/)
+- [Getting started](https://aviansuite.com/docs/getting-started/)
+- [API reference](https://aviansuite.com/openapi.json)
+- [Pricing](https://aviansuite.com/pricing/)
+- [Support](https://aviansuite.com/support/)
+- [Blog](https://app.aviansuite.com/blog)
+- [Security](https://aviansuite.com/security/)
+- [Terms of service](https://aviansuite.com/terms/)
+- [Privacy policy](https://aviansuite.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 56.2** — strong · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 51.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 73.2 |
+
+**Agent readiness 50.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aviansuite-com/](https://apis.io/providers/aviansuite-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AvianSuite: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aviansuite-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
